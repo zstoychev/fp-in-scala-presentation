@@ -122,7 +122,8 @@ body {
 .reveal q {
   font-style: italic; }
 
-.reveal pre {
+.reveal pre,
+.reveal .pre {
   display: block;
   position: relative;
   width: 90%;
@@ -137,7 +138,8 @@ body {
 .reveal code {
   font-family: monospace; }
 
-.reveal pre code {
+.reveal pre code,
+.reveal .pre code {
   display: block;
   padding: 5px;
   overflow: auto;
